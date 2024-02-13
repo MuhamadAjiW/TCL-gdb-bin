@@ -6,6 +6,3 @@ precompiled `gdb_11.2` binary file, compiled inside `Tinycorelinux 13.1` on `vir
 
 ## Configuration Used
 > ./configure --disable-werror --with-system-readline --without-guile --with-python=/usr/local/bin/python3 --disable-multilib --disable-nls --disable-install-libbfd --disable-install-libiberty --without-zlib --without-babeltrace --disable-gdbtk --disable-gdbserver --disable-all-targets --disable-ada --disable-fortran --disable-go --disable-java --disable-rust --disable-d --disable-objc
-
-Stripped further using
-> strip gdb
