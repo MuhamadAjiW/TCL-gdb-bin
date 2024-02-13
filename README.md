@@ -1,14 +1,11 @@
-# TCL_gdb-python-bin
-> MuhamadAjiW, 18/09/2023
+# Core_11.2
+> MuhamadAjiW, 29/09/2023
 
 ## Description
-`gdb` binary file for `TinyCoreLinux` with `python` compatibility. `gdb` source code can be downloaded at [its website](https://ftp.gnu.org/gnu/gdb/)
+`gdb_11.2` binary file, compiled inside `Tinycorelinux 13.1` on `virtualbox`. Featured with `python3.6` and is highly stripped.
 
-## Installation
-How to install in TinyCoreLinux:
-1. Download the one of the core folders or the core release (read readme on the core folders for further detail)
-2. move `gdb` to `usr/local/bin` or anywhere in your `$PATH`
-3. move `data-directory` contents to `usr/local/share/gdb`, make the folder in case there wasn't one
-4. try running `gdb --version`
+## Configuration Used
+> ./configure --disable-werror --with-system-readline --without-guile --with-python=/usr/local/bin/python3 --disable-multilib --disable-nls --disable-install-libbfd --disable-install-libiberty --without-zlib --without-babeltrace --disable-gdbtk --disable-gdbserver --disable-all-targets --disable-ada --disable-fortran --disable-go --disable-java --disable-rust --disable-d --disable-objc
 
-Enjoy
+Stripped further using
+> strip gdb
