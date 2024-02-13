@@ -2,7 +2,7 @@
 > MuhamadAjiW, 18/09/2023
 
 ## Description
-precompiled `gdb` binary file for `TinyCoreLinux32` with `python` compatibility in case you need plugins or other convenience. `gdb` source code can be downloaded at [its website](https://ftp.gnu.org/gnu/gdb/)
+precompiled `gdb` binary file for `TinyCoreLinux x86` with `python` compatibility in case you need plugins or other convenience. `gdb` source code can be downloaded at [its website](https://ftp.gnu.org/gnu/gdb/)
 
 ## Installation
 How to install in TinyCoreLinux:
